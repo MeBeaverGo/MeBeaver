@@ -7,9 +7,81 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div>
-    <h1>Stephen’s Website</h1>
-    <p>My site is live on GitHub Pages.</p>
-  </div>
+  <header class="header">
+    <div class="container">
+      <div class="brand">
+        <div class="logo">MeBeaver</div>
+        <nav class="nav">
+          <a href="#products">Products</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+
+      <div class="hero">
+        <h1>Interesting. Fun. Stickman.</h1>
+        <p>
+          A home for MeBeaver creations — shirts, notebooks, and whatever the stickman cooks up next.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#products">Browse Products</a>
+          <a class="btn btn-secondary" href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="products" class="section">
+      <div class="container">
+        <h2>Featured</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Product Name</h3>
+            <p>Short description of what it is and why it’s fun.</p>
+            <a class="link" href="#">View</a>
+          </article>
+
+          <article class="card">
+            <h3>Product Name</h3>
+            <p>Short description of what it is and why it’s fun.</p>
+            <a class="link" href="#">View</a>
+          </article>
+
+          <article class="card">
+            <h3>Product Name</h3>
+            <p>Short description of what it is and why it’s fun.</p>
+            <a class="link" href="#">View</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-alt">
+      <div class="container">
+        <h2>About MeBeaver</h2>
+        <p>
+          Write 2–4 sentences about the vibe: playful, simple, stickman-driven, and what people should expect.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Drop an email or point people to your Etsy / Instagram.</p>
+        <a class="btn" href="mailto:you@example.com">Email Me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> MeBeaver</p>
+      <a class="link" href="#">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
